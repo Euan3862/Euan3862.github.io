@@ -1,3 +1,4 @@
+<<<<<<< HEAD:index.css
 html, body {
     height: 100%;
 }
@@ -97,3 +98,104 @@ nav ul li a:hover {
 
 
 
+=======
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url("images/backgroundImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body .topper {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    min-width: 100%;
+    /*Will follow the page when scrolled down*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 1.7% 80%;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    /* This is to move the nav text to the right*/
+    margin-left: 0.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6em;
+    padding: 10px;
+    border-radius: 4px;
+    opacity: 1;
+    border: 2px solid transparent;
+    background-color: transparent;
+    transition: opacity 0.3s ease-in-out, border 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Add transition to all relevant properties */
+}
+
+nav ul li a:hover {
+    opacity: 0.7;
+    border: 2px solid black;
+    background-color: transparent; /* Change background to transparent on hover */
+    color: black; /* Change text color on hover */
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    color: black;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 20%;
+    height: 100%; /* Ensure the h1 takes up the full height of its parent */
+}
+
+.content .p1 {
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content a {
+    font-size: 1.2em;
+    border-style: solid;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
+
+
+>>>>>>> 5a9fb30de555ea7798af7202293fab3418f21e3b:home.css
